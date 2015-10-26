@@ -1,0 +1,39 @@
+{
+  "name" : "tksoftcn/yii2-enhance",
+  "description" : "The enhancement extensions of Yii 2.0",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "extensions", "enhancement"],
+  "version" : "1.0",
+  "require" : {
+    "php" : ">=5.4.0",
+    "yiisoft/yii2-composer" : ">=2.0.3",
+    "yiisoft/yii2" : ">=2.0.5",
+    "yiisoft/yii2-bootstrap" : ">=2.0.4",
+    "fxp/composer-asset-plugin" : ">=v1.0.3"
+  },
+  "license" : "BSD-3-Clause",
+  "extra" : {
+    "asset-installer-paths" : {
+      "npm-asset-library" : "vendor/npm",
+      "bower-asset-library" : "vendor/bower"
+    }
+  },
+  "minimum-stability" : "stable",
+  "homepage" : "http://framework.tksoft.cn/",
+  "support": {
+      "issues": "https://github.com/tksoftcn/yii2-enhance/issues",
+      "forum": "http://forum.tksoft.cn",
+      "source": "https://github.com/tksoftcn/yii2-enhance"
+  },
+  "authors": [
+      {
+          "name": "TongKe Chen",
+          "email": "chentongke@tksoft.cn"
+      }
+  ],
+  "autoload": {
+  	"psr-4": {
+      "tksoftcn\\yii2\\": ""
+      }
+  }  
+}
